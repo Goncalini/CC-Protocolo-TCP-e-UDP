@@ -1,0 +1,21 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$ORIGIN 10.in-addr.arpa.
+$TTL	604800
+@	IN	SOA	Servidor1.cc. admin.cc. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	Servidor.cc.
+1.4.4	IN	PTR	Servidor1
+2.4.4	IN	PTR	Servidor2
+1.1.1	IN	PTR	Portatil1
+2.1.1	IN	PTR	Portatil2
+1.2.2	IN	PTR	PC1
+2.2.2	IN	PTR	PC2
+1.3.3	IN	PTR	Roma
+2.3.3	IN	PTR	Paris
