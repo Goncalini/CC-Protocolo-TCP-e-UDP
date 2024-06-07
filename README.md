@@ -1,4 +1,4 @@
-# Trabalhos feito no âmbito da UC - Comunicação por Computadores 2023/24
+# Trabalhos feitos no âmbito da UC - Comunicação por Computadores 2023/24
 
 Grupo:
 
